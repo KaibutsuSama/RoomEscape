@@ -10,7 +10,8 @@ import Slogans from "../../components/slogans/slogans";
 const Home = {
     imageSrc: "image/logo.png",
     erweimaSrc: "image/erweima.png",
-    backgroundSrc: "image/banner.png"
+    backgroundSrc: "image/banner.png",
+    slogansSrc: "image/slogans.jpg"
 }
 
 const HOME = () =>{
@@ -22,7 +23,7 @@ const HOME = () =>{
             <ThemeCard/>
             <Content/>
             <Testimonials/>
-            <Slogans/>
+            <Slogans slogansSrc={Home.slogansSrc}/>
             <CommonFooter erweimaSrc={Home.erweimaSrc}/>
         </>
     )
